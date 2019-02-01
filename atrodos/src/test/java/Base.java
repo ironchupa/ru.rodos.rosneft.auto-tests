@@ -11,7 +11,7 @@ public class Base{
     @BeforeMethod
     public void setUp() {
         wd.manage().window().maximize();
-        wd.get("https://172.30.48.85");
+        wd.get("https://172.30.48.85"); //go to page
     }
 
     @AfterMethod
